@@ -56,17 +56,20 @@
       margin-bottom: 35px;
     }
 
-    .logo-text {
-      font-size: clamp(2.2rem, 7vw, 4.5rem);
+    .logo {
+      width: min(340px, 75vw);
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+      filter: drop-shadow(0 0 18px rgba(0, 174, 255, 0.28));
+    }
+
+    .brand-name {
+      font-size: clamp(1.5rem, 4vw, 2.4rem);
       font-weight: 700;
       letter-spacing: 5px;
       color: #ffffff;
     }
-
-    .logo-text span {
-      color: #5b9bd5;
-    }
-
     .subtitle {
       margin-top: 10px;
       color: #8fa9c0;
@@ -164,11 +167,16 @@
   <main class="container">
 
     <section class="brand">
-      <div class="logo-text">SAN<span>RO</span></div>
+      <img src="logo-sanro.png" alt="Sanro Tecnologia" class="logo">
 
       <div class="subtitle">
-        Tecnologia & Infraestrutura
+        SANRO TECNOLOGIA
       </div>
+
+      <div class="subtitle">
+        Infraestrutura e Cabeamento Estruturado
+    </div>
+      
     </section>
 
     <div class="divider"></div>
