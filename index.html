@@ -151,9 +151,20 @@
         padding: 40px 20px;
       }
 
-      .logo-text {
-        letter-spacing: 2px;
-      }
+    .logo {
+      width: min(340px, 75vw);
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+      filter: drop-shadow(0 0 18px rgba(0, 174, 255, 0.28));
+    }
+
+    .brand-name {
+      font-size: clamp(1.5rem, 4vw, 2.4rem);
+      font-weight: 700;
+      letter-spacing: 5px;
+      color: #ffffff;
+    }
 
       .subtitle {
         letter-spacing: 2px;
@@ -167,15 +178,15 @@
   <main class="container">
 
     <section class="brand">
-      <img src="logo-sanro.png" alt="Sanro Tecnologia" class="logo">
+     <img src="logo-sanro.png" alt="Sanro Tecnologia" class="logo">
 
-      <div class="subtitle">
+     <div class="brand-name">
         SANRO TECNOLOGIA
-      </div>
+     </div>
 
-      <div class="subtitle">
+     <div class="subtitle">
         Infraestrutura e Cabeamento Estruturado
-    </div>
+     </div>
       
     </section>
 
