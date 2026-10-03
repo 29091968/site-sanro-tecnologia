@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sanro Tecnologia | Em Construção</title>
+
+  <meta
+    name="description"
+    content="Sanro Tecnologia - Infraestrutura, conectividade e soluções em tecnologia."
+  >
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at 50% 30%, rgba(32, 102, 178, 0.15), transparent 35%),
+        linear-gradient(135deg, #08111b, #0b1724 55%, #050a10);
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+      background-size: 45px 45px;
+      mask-image: linear-gradient(to bottom, transparent, black, transparent);
+      pointer-events: none;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      width: 90%;
+      max-width: 950px;
+      text-align: center;
+      padding: 60px 30px;
+    }
+
+    .brand {
+      margin-bottom: 35px;
+    }
+
+    .logo-text {
+      font-size: clamp(2.2rem, 7vw, 4.5rem);
+      font-weight: 700;
+      letter-spacing: 5px;
+      color: #ffffff;
+    }
+
+    .logo-text span {
+      color: #5b9bd5;
+    }
+
+    .subtitle {
+      margin-top: 10px;
+      color: #8fa9c0;
+      letter-spacing: 4px;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 80px;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #5b9bd5, transparent);
+      margin: 35px auto;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 5vw, 3.5rem);
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    h1 span {
+      color: #5b9bd5;
+    }
+
+    .message {
+      max-width: 650px;
+      margin: 0 auto;
+      color: #aebdca;
+      line-height: 1.8;
+      font-size: 1.05rem;
+    }
+
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 35px;
+      padding: 10px 18px;
+      border: 1px solid rgba(91, 155, 213, 0.35);
+      border-radius: 50px;
+      color: #a9c9e7;
+      background: rgba(91, 155, 213, 0.06);
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    }
+
+    .pulse {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #5b9bd5;
+      box-shadow: 0 0 0 rgba(91, 155, 213, 0.7);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(91, 155, 213, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 10px rgba(91, 155, 213, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(91, 155, 213, 0);
+      }
+    }
+
+    footer {
+      margin-top: 60px;
+      color: #607386;
+      font-size: 0.78rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 40px 20px;
+      }
+
+      .logo-text {
+        letter-spacing: 2px;
+      }
+
+      .subtitle {
+        letter-spacing: 2px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="container">
+
+    <section class="brand">
+      <div class="logo-text">SAN<span>RO</span></div>
+
+      <div class="subtitle">
+        Tecnologia & Infraestrutura
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <h1>
+      Estamos construindo algo <span>novo.</span>
+    </h1>
+
+    <p class="message">
+      O site da <strong>Sanro Tecnologia</strong> está em desenvolvimento.
+      Em breve, você encontrará aqui nossas soluções em infraestrutura,
+      conectividade e tecnologia.
+    </p>
+
+    <div class="status">
+      <div class="pulse"></div>
+      SITE EM CONSTRUÇÃO
+    </div>
+
+    <footer>
+      © 2026 Sanro Tecnologia. Todos os direitos reservados.
+    </footer>
+
+  </main>
+
+</body>
+</html>
